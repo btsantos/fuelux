@@ -24,7 +24,6 @@
     "node": ">= 0.10.0"
   },
   "scripts": {
-    "test": "grunt travisci",
     "postinstall": "./node_modules/bower/bin/bower install"
   },
   "devDependencies": {
@@ -61,5 +60,8 @@
     "dependencies": {
       "moment": "http://momentjs.com/downloads/moment-with-langs.js"
     }
+  },
+  "dependencies": {
+    "strider-qunit": "~0.2.0"
   }
 }
