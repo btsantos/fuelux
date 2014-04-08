@@ -24,6 +24,7 @@
     "node": ">= 0.10.0"
   },
   "scripts": {
+    "pretest": "npm install",
     "test": "./node_modules/grunt/grunt saucelabs",
     "postinstall": "./node_modules/bower/bin/bower install"
   },
