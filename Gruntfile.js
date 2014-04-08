@@ -261,7 +261,7 @@ module.exports = function (grunt) {
 	//Serve task
 	grunt.registerTask('serve', ['quicktest', 'quickcss', 'copy:fonts', 'concat', 'uglify', 'jsbeautifier', 'connect', 'watch']);
 
-	grunt.registerTask('test', 'saucelabs-qunit');
+	grunt.registerTask('test', ['connect','saucelabs-qunit']);
 
 	//Travis CI task
 	grunt.registerTask('travisci', 'Run appropriate test strategy for Travis CI', function () {
