@@ -16,55 +16,55 @@
 	// and nothing else.
 
 	test('should be defined on jquery object', function () {
-		ok($(document.body).checkbox, 'checkbox method is defined');
+		ok($.fn.checkbox, 'checkbox method is defined');
 	});
 
 	test('should be defined on jquery object', function () {
-		ok($(document.body).combobox, 'combobox method is defined');
+		ok($.fn.combobox, 'combobox method is defined');
 	});
 
 	test('should be defined on jquery object', function () {
-		ok($(document.body).datagrid, 'datagrid method is defined');
+		ok($.fn.datagrid, 'datagrid method is defined');
 	});
 
 	test( 'should be defined on the jQuery object', function() {
-		ok( $(document.body).datepicker, 'datepicker method is defined' );
+		ok($.fn.datepicker, 'datepicker method is defined' );
 	});
 
 	test( 'should be defined on the jQuery object', function() {
-		ok( $(document.body).infinitescroll, 'infinitescroll method is defined' );
+		ok($.fn.infinitescroll, 'infinitescroll method is defined' );
 	});
 
 	test('should be defined on jquery object', function () {
-		ok($(this.pillboxHTML).pillbox, 'pillbox method is defined');
+		ok($.fn.pillbox, 'pillbox method is defined');
 	});
 
 	test('should be defined on jquery object', function () {
-		ok($(document.body).radio, 'radio method is defined');
+		ok($.fn.radio, 'radio method is defined');
 	});
 
 	test('should be defined on the jQuery object', function(){
-		ok( $(document.body).scheduler, 'scheduler method is defined' );
+		ok($.fn.scheduler, 'scheduler method is defined' );
 	});
 
 	test('should be defined on jquery object', function () {
-		ok($(document.body).search, 'search method is defined');
+		ok($.fn.search, 'search method is defined');
 	});
 
 	test('should be defined on jquery object', function () {
-		ok($(document.body).select, 'select method is defined');
+		ok($.fn.selectlist, 'selectlist method is defined');
 	});
 
 	test('should return element', function () {
-		ok($(document.body).spinbox()[0] === document.body, 'document.body returned');
+		ok($.fn.spinbox, 'spinbox method is defined');
 	});
 
 	test('should be defined on jquery object', function () {
-		ok($(document.body).tree, 'tree method is defined');
+		ok($.fn.tree, 'tree method is defined');
 	});
 
 	test('should be defined on jquery object', function () {
-		ok($(document.body).wizard, 'wizard method is defined');
+		ok($.fn.wizard, 'wizard method is defined');
 	});
 
 })();

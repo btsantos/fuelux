@@ -188,9 +188,6 @@ module.exports = function (grunt) {
 			all: {
 				options: {
 					browsers: [
-						{ browserName: 'internet explorer', platform: 'Windows 2012', version: '10' },
-						{ browserName: 'internet explorer', platform: 'Windows 2008', version: '9' },
-						{ browserName: 'internet explorer', platform: 'Windows 2008', version: '8' },
 						{ browserName: 'firefox', platform: 'Windows 2008', version: '19' },
 						{ browserName: 'firefox', platform: 'Mac 10.6', version: '19' },
 						{ browserName: 'safari', platform: 'Mac 10.8', version: '6' },
