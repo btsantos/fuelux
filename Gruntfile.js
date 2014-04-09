@@ -254,7 +254,7 @@ module.exports = function (grunt) {
 	grunt.registerTask('fulltest', ['connect', 'jshint', 'qunit:full']);
 	grunt.registerTask('saucelabs', ['connect', 'jshint', 'saucelabs-qunit']);
 
-	grunt.registerTask('test', ['saucelabs-qunit']);
+	grunt.registerTask('test', ['saucelabs']);
 	//Style tasks
 	grunt.registerTask('quickcss', ['less', 'usebanner']);
 	grunt.registerTask('fullcss', ['quickcss']); /* Remove */

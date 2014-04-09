@@ -62,8 +62,5 @@
     "dependencies": {
       "moment": "http://momentjs.com/downloads/moment-with-langs.js"
     }
-  },
-  "dependencies": {
-    "grunt-cli": "~0.1.13"
   }
 }
